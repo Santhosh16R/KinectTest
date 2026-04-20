@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 168ffea0f21e8584f832d2c82a1343c7, type: 3}
-  m_Name: WalkForward
-  m_EditorClassIdentifier: Assembly-CSharp::NuitrackSDK.Poses.NuitrackPose
-  relativeMode: 1
+  m_Name: LeftTurn1
+  m_EditorClassIdentifier: 
+  relativeMode: 0
   waist:
-    isActive: 1
+    isActive: 0
     orientation: {x: 0, y: 0, z: 0, w: 1}
     tolerance: 0.9
   leftHip:
-    isActive: 1
+    isActive: 0
     orientation: {x: 0, y: 0, z: 0, w: 1}
     tolerance: 0.9
   leftKnee:
@@ -26,7 +26,7 @@ MonoBehaviour:
     orientation: {x: 0, y: 0, z: 0, w: 1}
     tolerance: 0.9
   rightHip:
-    isActive: 1
+    isActive: 0
     orientation: {x: 0, y: 0, z: 0, w: 1}
     tolerance: 0.9
   rightKnee:
@@ -35,17 +35,17 @@ MonoBehaviour:
     tolerance: 0.9
   leftShoulder:
     isActive: 1
-    orientation: {x: 0, y: 0, z: 0, w: 1}
+    orientation: {x: 0, y: 0, z: 0.62475234, w: 0.780823}
     tolerance: 0.9
   leftElbow:
     isActive: 1
-    orientation: {x: -0.44054133, y: 0.5396358, z: -0.47402012, w: 0.5385364}
-    tolerance: 0.9432444
+    orientation: {x: 0, y: 0, z: 0.699499, w: 0.7146336}
+    tolerance: 0.90000147
   rightShoulder:
     isActive: 1
-    orientation: {x: 0.11312991, y: 0.028932154, z: -0.63246375, w: 0.7657377}
+    orientation: {x: -0.58345276, y: 0.07315994, z: -0.22971575, w: 0.77553934}
     tolerance: 0.9
   rightElbow:
     isActive: 1
-    orientation: {x: 0.097970545, y: 0.040923245, z: -0.68646204, w: 0.71937263}
-    tolerance: 0.9000074
+    orientation: {x: -0.52998763, y: -0.57806426, z: 0.32721382, w: 0.527149}
+    tolerance: 0.9

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 168ffea0f21e8584f832d2c82a1343c7, type: 3}
-  m_Name: WalkForward
+  m_Name: RightTurn
   m_EditorClassIdentifier: Assembly-CSharp::NuitrackSDK.Poses.NuitrackPose
   relativeMode: 1
   waist:
@@ -35,12 +35,12 @@ MonoBehaviour:
     tolerance: 0.9
   leftShoulder:
     isActive: 1
-    orientation: {x: 0, y: 0, z: 0, w: 1}
+    orientation: {x: 0, y: 0, z: 0.29636216, w: 0.9550757}
     tolerance: 0.9
   leftElbow:
     isActive: 1
-    orientation: {x: -0.44054133, y: 0.5396358, z: -0.47402012, w: 0.5385364}
-    tolerance: 0.9432444
+    orientation: {x: -0.028993659, y: 0.95016485, z: -0.25857857, w: 0.17170684}
+    tolerance: 0.9432477
   rightShoulder:
     isActive: 1
     orientation: {x: 0.11312991, y: 0.028932154, z: -0.63246375, w: 0.7657377}
