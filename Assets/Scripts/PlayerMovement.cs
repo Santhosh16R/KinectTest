@@ -1,10 +1,11 @@
 using UnityEngine;
+using NuitrackSDK.Poses;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float rotationSpeed = 120f;
-
+    public NuitrackPose poseTest;
     bool forward;
     bool backward;
     bool left;
@@ -30,4 +31,9 @@ public class PlayerMovement : MonoBehaviour
     public void Backward(bool value) => backward = value;
     public void Left(bool value) => left = value;
     public void Right(bool value) => right = value;
+
+    public void OnPosMatches(NuitrackPose pose,int id,float match)
+    {
+        
+    }
 }

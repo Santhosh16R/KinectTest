@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+
 namespace NuitrackSDK.Poses
 {
     [AddComponentMenu("NuitrackSDK/Poses/PoseItem")]
@@ -14,6 +15,8 @@ namespace NuitrackSDK.Poses
 
         [SerializeField] Graphic fillSlider;
         [SerializeField] Color succesPoseColor = Color.green;
+
+       
 
         Color defaultFillColor;
 
@@ -42,7 +45,8 @@ namespace NuitrackSDK.Poses
             {
                 poseNameText.text = pose.name;
                 poseCompilance.value = compilance;
-                fillSlider.color = Mathf.Approximately(compilance, 1) ? succesPoseColor : defaultFillColor;
+               
+                fillSlider.color = Mathf.Approximately(compilance,1) ? succesPoseColor : defaultFillColor;
             }
         }
     }

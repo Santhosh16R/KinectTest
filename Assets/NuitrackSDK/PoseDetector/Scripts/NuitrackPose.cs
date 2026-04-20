@@ -23,7 +23,7 @@ namespace NuitrackSDK.Poses
             [SerializeField] bool isActive = true;
 
             [SerializeField] Quaternion orientation;
-            [SerializeField, Range(0.1f, 0.99f)] float tolerance = 0.9f;
+            [SerializeField, Range(0.1f, 0.9f)] float tolerance = 0.8f;//0.9f
 
             public bool IsActive
             {
@@ -51,7 +51,7 @@ namespace NuitrackSDK.Poses
 
             public JointReference()
             {
-                tolerance = 0.9f;
+                tolerance = 0.85f;//0.9f
                 isActive = true;
                 orientation = Quaternion.Euler(0, 0, 0);
             }

@@ -187,7 +187,11 @@ namespace NuitrackSDK.Poses
                     if (user.Skeleton != null)
                     {
                         match = pose.Match(user.Skeleton);
-                        poseEvents[pose].Invoke(pose, user.ID, match);
+                        if (match > 0.8f)//to trigger the event
+                        {
+                            poseEvents[pose].Invoke(pose, user.ID, match);//to triger the event
+                        }
+                       // poseEvents[pose].Invoke(pose, user.ID, match);
                     }
 
                     Matches[pose].Add(user.ID, match);
