@@ -857,7 +857,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: b6bbc836216e52e448839f74466528fc, type: 2}
     - target: {fileID: 3340808154826096648, guid: 68e4c0983d90b14468852a7fab156e09, type: 3}
       propertyPath: posesCollection.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3340808154826096648, guid: 68e4c0983d90b14468852a7fab156e09, type: 3}
       propertyPath: posesCollection.Array.data[0].pose
@@ -870,7 +870,7 @@ PrefabInstance:
     - target: {fileID: 3340808154826096648, guid: 68e4c0983d90b14468852a7fab156e09, type: 3}
       propertyPath: posesCollection.Array.data[2].pose
       value: 
-      objectReference: {fileID: 11400000, guid: 8ab015eb88b0e124399f5a60de24713b, type: 2}
+      objectReference: {fileID: 11400000, guid: 965e902e34556814b8257f00bd5d380b, type: 2}
     - target: {fileID: 3340808154826096648, guid: 68e4c0983d90b14468852a7fab156e09, type: 3}
       propertyPath: poseProcessEvent.m_PersistentCalls.m_Calls.Array.size
       value: 2
